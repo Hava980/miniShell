@@ -1,0 +1,40 @@
+Mini shell 
+Authored by Hava Haviv
+211737440
+
+==Description==
+This code is a basic shell implemented in C language. It accepts commands from the user and executes them. 
+The program is written in the main function, which contains the main loop that receives commands from the user, parses them, and executes them. 
+In addition, The program supports: 
+- variable assignment, variables can be used using the "$var" syntax.
+- Redirection of a command to a file using the < symbol
+- Pipes
+- Running a process in the background
+- Pausing a process and returning it to run in the background
+- The program supports the command enter three times in a row to exit from the shell.
+
+Program DATABASE:
+struct - node is a node that essentially creates a linked list.
+This structure provides a dynamic data structure that allows efficient insertion of elements and searching for a particular element, 
+each node in the list contains the variable and its true value.
+
+Functions:
+1. addNode - This function adds a new node to the linked list that stores the variables
+2. freeLinkedList - This function frees the memory of the linked list.
+3. dollar - This function checks the case that the user wants to use the variable. 
+4. theFirstSemiColon - This function finds the first semicolon that separates the commands.
+
+==Program Files==
+ex2.c – contain the main and the functions.
+
+==How to compile?==
+compile: gcc ex2.c -o ex2
+run: ./ex2
+
+==Input:==
+Shell commands in linux
+
+==Output:==
+output as in the shell according to the entered command
+
+
