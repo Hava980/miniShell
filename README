@@ -13,7 +13,7 @@ In addition, The program supports:
 - Pausing a process and returning it to run in the background
 - The program supports the command enter three times in a row to exit from the shell.
 
-Program DATABASE:
+Program DataStructures:
 struct - node is a node that essentially creates a linked list.
 This structure provides a dynamic data structure that allows efficient insertion of elements and searching for a particular element, 
 each node in the list contains the variable and its true value.
